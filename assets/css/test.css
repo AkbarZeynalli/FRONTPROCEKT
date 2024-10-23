@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto&display=swap");
+
+body {
+  line-height: 24px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #777777;
+}
+.header_area,
+.main_menu,
+.main_box {
+  margin: 0px auto 0 !important;
+  max-width: 1200px;
+}
+#sticky {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  z-index: 1000;
+}
+
+/* BANNER-AREA START */
+.banner-area {
+  margin-top: 0px;
+  height: 892px;
+  background: url(../img/banner-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+
+#navbarText a:hover {
+  color: orange !important;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+  gap: 55px;
+}
+
+.col {
+  border: 1px solid black;
+}
+.container {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.fullscrean {
+    height: 100%;
+  border: 1px solid black;  
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  align-items: center;
+}
+.textshoes{
+    border: 1px solid black;
+    height: 380px;
+    flex: 0 0 100%;
+    /* display: flex; */
+    /* max-width: 100%; */
+    /* width: 100%; */
+    /* min-height: 1px; */
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    /* box-sizing: border-box; */
+}

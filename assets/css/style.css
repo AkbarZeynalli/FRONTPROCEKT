@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto&display=swap');
+
+#sticky{
+    top: 40px;
+    position: sticky;    
+    width: 60%;
+    margin: 0 auto !important;
+    z-index: 1;
+}
+.banner-area{
+    margin-top: 0px;
+}
+.navbar-collapse{
+    flex-grow: 0 !important;
+    gap: 55px;
+    ul{
+        gap: 25px;
+    }
+}
+.navbar-text{
+    gap: 55px !important;
+}
+#navbarText{
+    a:hover{
+        color: orange !important;
+    }
+}
+/* Banner-area START */
+
+.banner-area{
+    /* background-image: url(../img/banner-bg.jpg) center no-repeat; */
+    /* background: url(../img/banner-bg.jpg) center no-repeat; */
+    background: url(../img/banner-bg.jpg);
+    /* width: 100%; */
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
