@@ -244,20 +244,21 @@ h6 {
   width: 35px;
   transition: all 0.3s ease 0s;
   overflow: hidden;
-  i {
-    position: relative;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    text-align: center;
-    background: #828bb2;
-    border-radius: 50%;
-    display: inline-block;
-    color: #fff;
-    transition: all 0.3s ease 0s;
-    z-index: 1;
-  }
 }
+.social-info {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #828bb2;
+  border-radius: 50%;
+  display: inline-block;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+  z-index: 1;
+}
+
 a {
   text-decoration: none;
 }
@@ -267,4 +268,44 @@ a {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+}
+.prd-bottom {
+  margin-top: 20px;
+}
+
+/* Exclusive Hot Deal Ends Soon! START */
+.exclusive-deal {
+  background: #f9f9ff;
+}
+.align-items-center {
+  align-items: center !important;
+}
+.justify-content-center {
+  justify-content: center !important ;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.exclusive-left {
+  background: url(../img/exclusive.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 175px 0;
+}
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.clockinner {
+  color: #222222;
+  border-right: 1px solid #eee;
+}
+.clockwrap {
+  background: #fff;
+  padding: 18px 0;
 }
