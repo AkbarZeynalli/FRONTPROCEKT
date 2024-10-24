@@ -138,4 +138,133 @@ body {
   border: 1px solid black;
   height: 375px;
   width: 100%;
+  padding: 100px 0;
+}
+.featurescontainer {
+  border: 1px solid green;
+}
+
+.features-inner {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px 0;
+}
+.single-features {
+  text-align: center;
+  border-right: 1px solid #eeeeee;
+  .f-icon {
+    margin-bottom: 20px;
+  }
+  h6 {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 500;
+    line-height: 1.2 !important;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+/* START Category-Area */
+.justify-content-center {
+  justify-content: center !important;
+}
+.justify-content-center:nth-child(1) {
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.category-area-left {
+  height: 100%;
+}
+.deal-details {
+  position: absolute;
+  left: 50%;
+  top: 115%;
+  display: inline-block;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease 0s;
+}
+.deal-title {
+  color: #fff;
+  text-transform: uppercase;
+}
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.category-area {
+  padding: 100px 0px;
+}
+
+/* HOME CARDS START */
+
+.product-card-header {
+  border: 1px solid black;
+  height: 150px;
+}
+.section-title {
+  h1 {
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 500;
+    line-height: 1.2 !important;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+.l-through {
+  text-decoration: line-through;
+  color: #cccccc;
+  margin-bottom: 0;
+}
+.card img {
+}
+.card-body > h5 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.price > h6 {
+  font-size: 14px;
+  display: inline-block;
+  padding-right: 15px;
+  margin: 0;
+}
+.social-info {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  transition: all 0.3s ease 0s;
+  overflow: hidden;
+  i {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #828bb2;
+    border-radius: 50%;
+    display: inline-block;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+    z-index: 1;
+  }
+}
+a {
+  text-decoration: none;
+}
+.lnr {
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 }
