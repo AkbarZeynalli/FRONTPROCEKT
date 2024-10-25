@@ -416,7 +416,7 @@ a {
   }
 }
 .owl-prev:hover,
-.owl-next:hover{
+.owl-next:hover {
   color: #222222;
   opacity: 1;
 }
@@ -434,27 +434,123 @@ a {
 }
 
 /* brand-area START */
-.brand-area{
+.brand-area {
   border: 1px solid black;
   /* margin-top: 150px; */
   /* margin-bottom: 250px; */
   /* align-items: center; */
 }
-.section_gap{
+.section_gap {
   padding: 100px 0;
 }
-.single-img{
-  img{
+.single-img {
+  img {
     opacity: 0.2;
   }
 }
-.single-img{
-  img:hover{
+.single-img {
+  img:hover {
     opacity: 1;
-    color: #222222
-  };
+    color: #222222;
+  }
 }
-.mx-auto{
+.mx-auto {
   margin-left: auto !important;
   margin-right: auto !important;
+}
+.section_gap_bottom {
+  padding-bottom: 100px;
+}
+.single-related-product {
+  margin-bottom: 30px;
+  a {
+    color: #222222;
+    text-transform: uppercase;
+  }
+}
+.desc {
+  margin: 10px 0px 10px 15px;
+}
+.d-flex {
+  display: flex;
+}
+.c5-foto {
+  flex: 0 0 25%;
+  max-width: 25%;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* footer start */
+.footer-area {
+  padding-top: 100px;
+  background-color: #222222;
+  h6 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+.from-inline {
+  display: inline-block;
+  width: 100%;
+}
+.single-footer-widget {
+  input {
+    border: none;
+    width: 80% !important;
+    font-weight: 300;
+    background: #fff;
+    color: #777;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 14px;
+  }
+}
+.click-btn {
+  color: #fff;
+  border-radius: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  padding: 6px 12px;
+  border: 0;
+  background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.instafeed {
+  margin: -5px;
+  li {
+    overflow: hidden;
+    width: 25%;
+    img {
+      margin: 5px;
+    }
+  }
+}
+.footer-social {
+  a {
+    padding-right: 25px;
+  }
+  i {
+    color: #cccccc;
+  }
+  i:hover {
+    color: #ffba00;
+    /* color: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%); */
+  }
+}
+.footer-text {
+  padding-top: 80px;
+  i {
+    color: #ffba00;
+  }
+  a {
+    color: #ffba00;
+  }
 }
