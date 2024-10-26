@@ -24,7 +24,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: 84%;
-  z-index: 1000;
+  z-index: 1;
 }
 
 /* BANNER-AREA START */
@@ -43,12 +43,26 @@ body {
   flex-grow: 0 !important;
   gap: 55px;
 }
+/* .shop-link {
+  position: relative;
+} */
+/* .dropdown-menu {
+  display: none; 
+  position: absolute;
+  background-color: green; 
+  border: 1px solid black; 
+  z-index: 2; 
+}
+
+.dropdown-menu:hover .dropdown-menu {
+  display: block; 
+} */
 
 /* .col {
   border: 1px solid black;
 } */
 .container {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 100%;
   height: 100%;
   padding-right: 15px;
@@ -59,7 +73,7 @@ body {
 
 .fullscrean {
   height: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -68,7 +82,7 @@ body {
 }
 
 .textshoes {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 380px;
   flex: 0 0 100%;
   display: flex;
@@ -82,7 +96,7 @@ body {
 }
 
 .textshoes-text {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 40%;
   height: 100%;
   display: flex;
@@ -124,7 +138,7 @@ body {
   color: #222222;
 }
 .textshoes-shoes {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 60%;
   height: 100%;
   overflow: hidden;
@@ -135,13 +149,13 @@ body {
 }
 /* Fearures-Area START */
 .features-area {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 375px;
   width: 100%;
   padding: 100px 0;
 }
 .featurescontainer {
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .features-inner {
@@ -207,7 +221,7 @@ h6 {
 /* HOME CARDS START */
 
 .product-card-header {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 150px;
 }
 .section-title {
@@ -338,7 +352,7 @@ a {
 }
 
 .product-slider {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: relative;
 }
 .owl-stage {
@@ -373,7 +387,7 @@ a {
 }
 .add-bag {
   margin: 30px 0;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -399,7 +413,7 @@ a {
   color: #222222;
 }
 .single-exclusive-slider {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 100%;
   width: 304px;
 }
@@ -435,7 +449,7 @@ a {
 
 /* brand-area START */
 .brand-area {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* margin-top: 150px; */
   /* margin-bottom: 250px; */
   /* align-items: center; */
